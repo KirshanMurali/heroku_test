@@ -47,7 +47,7 @@ while True:
                     elif current_message == "Buy":
                         send_message(chat_id, "What to buy?", menu_items)
         print messages
-        print '-'*10
+        print '-----'*10
 
     try:
         if messages and messages[-1]['message']['text'] == "stop":
